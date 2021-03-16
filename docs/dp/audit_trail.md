@@ -49,8 +49,9 @@ API_CALL_DETAILS | API call details : see below
 ##### API call details: exemples
 - GET /ebox/messages 
   - messageId
-- GET /ebox/messages/{messageId} messageId 
-  - paymentDate.paymentDataId
+- GET /ebox/messages/{messageId}
+  - messageId 
+  - paymentData.paymentDataId
 - GET /ebox/messages/{messageId}/attachments 
   - messageId
   - attachment.{attachementId}.attachmentId 
@@ -63,16 +64,17 @@ API_CALL_DETAILS | API call details : see below
   - attachmentId 
   - mediaType 
   - size
-  - digest.digestValue digest.digestMethod
+  - digest.digestValue
+  - digest.digestMethod
 - GET /ebox/messages/{messageId}/attachments/{attachmentId}/content 
   - messageId
   - attachmentId 
   - contentId
-- GET /ebox/messages/{messageId}/paymentDate messageId
+- GET /ebox/messages/{messageId}/paymentData
+  - messageId
   - paymentDataId
 - POST/publishMessage 
   - originalMessageId 
-  - attachments.{attachementId}.mediaType 
   - attachments.{attachementId}.size 
   - attachments.{attachementId}.digest.digestValue 
   - attachments.{attachementId}.digest.digestMethod 
