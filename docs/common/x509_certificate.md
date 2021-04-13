@@ -4,9 +4,6 @@ title: X.509 certificate
 
 - Attention, you need a distinct certificate for each work environment (Acceptance, Production).
 - The type of certificate requested must be a non-public trust (applicative) certificate.
-  * Trusted CA: QuoVadis Trust Anchor Issuing CA G2;
-- The order for a new certificate must be made via info.be@quovadisglobal.com 
-  * The mail must be sent in Dutch or English.
 - The certificate format MUST respect the following structure:
 
 <table>
@@ -25,6 +22,6 @@ title: X.509 certificate
     <tr><td><strong>S</strong></td><td>Brussel-Hoofdstad</td><td>The state/region where your organization is located. This shouldn't be abbreviated. Example: <br/><strong>S</strong> = Brussel-Hoofdstad</td></tr>
 </table>
 
-- If necessary, the CSR can be sent to us for validation before the application at QuoVadis.
+- If necessary, the CSR can be sent to us for validation before the order.
 
-Do not forget to have your “e-Box DocProvider onboarding form” validated (by [eBoxIntegration@smals.be](mailto:eBoxIntegration@smals.be)) before ordering your certificates to QuoVadis. 
+Do not forget to have your *onboarding form* validated (by [eBoxIntegration@smals.be](mailto:eBoxIntegration@smals.be)) before ordering your certificates. 

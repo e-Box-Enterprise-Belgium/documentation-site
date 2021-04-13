@@ -28,8 +28,8 @@ Once validated, the form is sent back to you as soon as the configuration is rea
 
 ## Order your X.509 certificate
 In order to call the e-Box Publication service, you will need a [X.509 certificate](../common/x509_certificate.md).
-The request must be sent to [QuoVadis](mailto:info.be@quovadisglobal.com).
-Please pay attention to respect the expected format.
+Any official issuer is acceptable. Please avoid to use a self-signed certificate.
+Please pay attention to respect [the expected format](../common/x509_certificate.md).
 It’s also important to have a distinct certificate for each work environment (Acceptance, Production).
 Once you receive your order, send the public part of the certificate to [eBoxIntegration](mailto:eBoxIntegration@smals.be).
 

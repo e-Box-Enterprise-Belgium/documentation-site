@@ -11,8 +11,9 @@ To become a new e-Box Enterprise DocConsumer, your enterprise needs to send the 
 - The completed document “[e-Box DocConsumer request form and terms of use](https://info.eboxenterprise.be/fr/documents/word/e-Box_DocConsumer_onboarding_form.docx)”, signed by a Legal Representative of your company.
 
 The certificate needed is a [X.509 certificate](../common/x509_certificate.md).
-The request must be sent to [QuoVadis](mailto:info.be@quovadisglobal.com).
-Please pay attention to respect the expected format. It’s also important to have a distinct certificate for each work environment (Acceptance, Production).
+Any official issuer is acceptable. Please avoid to use a self-signed certificate.
+Please pay attention to respect [the expected format](../common/x509_certificate.md).
+It’s also important to have a distinct certificate for each work environment (Acceptance, Production).
 
 ## OAuth configuration
 The e-Box integration team validates your request and configure your enterprise as a new OAuth client.
