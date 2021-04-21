@@ -8,7 +8,7 @@ sidebar_label: Onboarding
 ## Onboarding form request
 To become a new e-Box Enterprise DocConsumer, your enterprise needs to send the following documents to [eBoxIntegration@smals.be](mailto:eBoxIntegration@smals.be).
 - The public part of the certificate you will use;
-- The completed document “[e-Box DocConsumer request form and terms of use](https://info.eboxenterprise.be/fr/documents/word/e-Box_DocConsumer_onboarding_form.docx)”, signed by a Legal Representative of your company.
+- The completed document “[e-Box DocConsumer request form and terms of use](https://www.eboxenterprise.be/fr/documents/word/e-Box_DocConsumer_onboarding_form.docx)”, signed by a Legal Representative of your company.
 
 The certificate needed is a [X.509 certificate](../common/x509_certificate.md).
 Any official issuer is acceptable. Please avoid to use a self-signed certificate.

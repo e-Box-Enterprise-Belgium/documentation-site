@@ -44,7 +44,7 @@ module.exports = {
             },
             {
               label: 'Info site',
-              href: 'https://info.eboxenterprise.be',
+              href: 'https://www.eboxenterprise.be',
             },
           ],
         },
@@ -53,7 +53,7 @@ module.exports = {
           items: [
             {
               label: 'Conditions for re-use (in french)',
-              href: 'https://info.eboxenterprise.be/fr/open-data.html',
+              href: 'https://www.eboxenterprise.be/fr/open-data.html',
               language:"french"
             },
             {
@@ -62,7 +62,7 @@ module.exports = {
             },
             {
               label: 'Personal Data',
-              href: 'https://info.eboxenterprise.be/en/documents/pdf/gdpr-enterprise-noss-E.pdf',
+              href: 'https://www.eboxenterprise.be/en/documents/pdf/gdpr-enterprise-noss-E.pdf',
             },
           ],
         },
